@@ -754,7 +754,10 @@ nav {
   }
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 360px) {
+  .info-person-img {
+    height: 350px;
+  }
   .person-info {
     height: 1230px;
     top: 200px;
@@ -764,9 +767,8 @@ nav {
     display: flex;
     flex-direction: column;
     width: 210px;
-
     top: -80px;
-    left: 35px;
+    left: 10px;
   }
 
   .box-info-icon {
@@ -789,7 +791,7 @@ nav {
 
   .box-info-content {
     top: 18px;
-    left: 26px;
+    left: 16px;
   }
 
   .box-info {
@@ -806,13 +808,13 @@ nav {
     align-items: center;
     width: 200px;
     top: 30px;
-    left: 0px;
+    left: 8px;
   }
 
   .exeprience {
     position: relative;
     top: 80px;
-    left: 20px;
+    left: 0px;
     width: 200px;
   }
 
@@ -827,7 +829,7 @@ nav {
   .person-info-experience {
     position: relative;
     top: 30px;
-    left: 100px;
+    left: 75px;
     width: 200px;
   }
 
