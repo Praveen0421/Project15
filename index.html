@@ -718,45 +718,40 @@
 
 
     body {
-      background: rgb(154, 59, 178);
+      background: rgb(0, 0, 0);
     }
 
     .person-info {
-      height: 730px;
+      height: 1230px;
       top: 200px;
     }
 
     .person-info1 {
-      top: -50px;
-      left: 40px;
+      display: flex;
+      flex-direction: column;
+      width: 210px;
+
+      top: -80px;
+      left: 110px;
 
     }
 
     .box-info-icon {
-      position: relative;
-      right: 25px;
-      bottom: 18px;
-      font-size: 40px;
+      font-size: 30px;
     }
 
     .heading {
-      position: absolute;
-
-      left: -58px;
-      width: 150px;
-      font-size: 14px;
+      margin: 16px 0px;
+      font-size: 18px;
 
     }
 
     .para {
-      display: none;
+      margin: 16px 0px;
+      font-size: 14px;
     }
 
     .know-more {
-      position: absolute;
-      top: 100px;
-      left: -58px;
-      width: 123px;
       font-size: 15px;
     }
 
@@ -766,12 +761,8 @@
     }
 
     .box-info {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50px;
-      height: 100px;
-      width: 100px;
+      height: 250px;
+      width: 300px;
     }
 
 
@@ -780,15 +771,17 @@
     .person-info2 {
       position: relative;
       display: flex;
+      flex-direction: column;
       align-items: center;
-      width: 690px;
-      top: 170px;
-      left: 40px;
+      width: 300px;
+      top: 30px;
+      left: 175px;
+
     }
 
     .exeprience {
       position: relative;
-      top: 50px;
+      top: 100px;
       width: 590px;
     }
 
@@ -803,6 +796,7 @@
     .person-info-experience {
       position: relative;
       top: 40px;
+      left: -50px;
       width: 270px;
     }
 
@@ -818,6 +812,106 @@
 
     .experience-box {
       width: 200px;
+      height: 100px;
+    }
+
+  }
+
+  @media screen and (max-width: 395px) {
+
+    .person-info {
+      height: 1230px;
+      top: 200px;
+    }
+
+    .person-info1 {
+      display: flex;
+      flex-direction: column;
+      width: 210px;
+
+      top: -80px;
+      left: 35px;
+
+    }
+
+    .box-info-icon {
+      font-size: 30px;
+    }
+
+    .heading {
+      margin: 16px 0px;
+      font-size: 18px;
+
+    }
+
+    .para {
+      margin: 16px 0px;
+      font-size: 14px;
+    }
+
+    .know-more {
+      font-size: 15px;
+    }
+
+    .box-info-content {
+      top: 18px;
+      left: 26px;
+    }
+
+    .box-info {
+      height: 250px;
+      width: 300px;
+    }
+
+
+    /*    */
+
+
+    .person-info2 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 200px;
+      top: 30px;
+      left: 0px;
+
+    }
+
+    .exeprience {
+      position: relative;
+      top: 80px;
+      left: 20px;
+      width: 200px;
+    }
+
+    .twelve {
+      font-size: 70px;
+    }
+
+    .person-info2-text {
+      font-size: 20px;
+    }
+
+    .person-info-experience {
+      position: relative;
+      top: 30px;
+      left: 100px;
+      width: 200px;
+    }
+
+    .sametext {
+      font-size: 40px;
+      font-weight: 700;
+    }
+
+    .samepara {
+      font-size: 16px;
+      color: #fff;
+    }
+
+    .experience-box {
+      width: 160px;
       height: 100px;
     }
   }
