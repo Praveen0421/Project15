@@ -6,7 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product design landing page</title>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
@@ -25,7 +27,6 @@
   }
 
   nav {
-    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -45,11 +46,10 @@
   .nav-items {
     position: relative;
     top: 20px;
-    right: 250px;
+    right: 230px;
   }
 
   .items {
-
     display: flex;
   }
 
@@ -61,9 +61,7 @@
     color: #fff;
   }
 
-  .hamburger-menu-bar-icon {
-    height: 38px;
-    width: 40px;
+  .bar {
     display: none;
   }
 
@@ -125,6 +123,162 @@
     border: none;
   }
 
+  /* Person information */
+
+  .person-info {
+    position: relative;
+    top: 10px;
+    height: 1090px;
+    width: 840px;
+    background-color: #1a1919;
+  }
+
+  .person-info-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .person-info1 {
+    position: absolute;
+    left: 220px;
+    display: flex;
+
+  }
+
+  .box-info-icon {
+    font-size: 60px;
+  }
+
+  .para,
+  .heading {
+    color: #fff;
+  }
+
+  .heading {
+    position: relative;
+    margin: 30px 0px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .para {
+    position: relative;
+    margin: 30px 0px;
+    font-size: 25px;
+  }
+
+  .know-more {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .colorWhite {
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .icon2 {
+    color: #fff;
+  }
+
+  .box-info-content {
+    position: relative;
+    top: 60px;
+    left: 60px;
+  }
+
+  .box-info {
+    position: relative;
+    top: 120px;
+    background-color: #222222;
+    height: 400px;
+    width: 380px;
+    margin: 0px 15px;
+  }
+
+  .box-info2 {
+    background-color: #e12535;
+  }
+
+  /*    */
+
+  .person-info2 {
+    position: absolute;
+    display: flex;
+    top: 640px;
+    left: 280px;
+  }
+
+  .exeprience {
+    position: relative;
+    left: 70px;
+    display: flex;
+  }
+
+  .color1 {
+    color: #ea3141;
+  }
+
+  .twelve {
+    font-size: 120px;
+    font-weight: 900;
+  }
+
+  .person-info2-text {
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+  }
+
+  .person-info-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+  }
+
+  .sametext {
+    font-size: 55px;
+    font-weight: 700;
+  }
+
+  .samepara {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .experience-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #222222;
+    width: 380px;
+    height: 150px;
+  }
+
+  .experience-box1,
+  .experience-box3 {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .experience-box2,
+  .experience-box4 {
+    position: relative;
+    top: 10px;
+  }
+
+
+
+  .experience-box3,
+  .experience-box4 {
+    position: relative;
+    left: 20px;
+  }
+
   @media screen and (max-width: 1280px) {
     .nav-items {
       position: relative;
@@ -135,13 +289,11 @@
       position: relative;
       height: 550px;
       right: 100px;
-
     }
 
     .information {
       position: relative;
       left: -80px;
-
     }
 
     .information h2 {
@@ -151,9 +303,7 @@
     }
 
     .information h1 {
-
       font-size: 60px;
-
     }
 
     .information p {
@@ -180,9 +330,10 @@
       display: none;
     }
 
-    .hamburger-menu-bar-icon {
+    .bar {
       position: relative;
-      right: 80px;
+      height: 35px;
+      right: 40px;
       top: 30px;
       display: block;
     }
@@ -238,9 +389,9 @@
       left: 40px;
     }
 
-    .hamburger-menu-bar-icon {
+    i {
       position: relative;
-      right: 40px;
+      right: 0px;
     }
 
     .hero {
@@ -327,9 +478,7 @@
         </ul>
       </div>
 
-      <img class="hamburger-menu-bar-icon"
-        src="img/hamburger-menu-bar-icon-flat-vector-illustration-design-hamburger-menu-bar-icon-flat-vector-illustration-design-isolated-white-158420247.jpg"
-        alt="hamburger-menu-bar-icon">
+      <img class="bar" src="img/bar.jpg" alt=" bar-img">
     </nav>
     <!-- hero -->
     <section class="hero">
@@ -345,6 +494,70 @@
         </p>
         <button class="btn">ABOUT ME</button>
       </div>
+    </section>
+    <!-- person-info -->
+    <section class="person-info">
+      <div class="person-info-container">
+        <div class="person-info1">
+          <div class="box-info box-info1">
+            <div class="box-info-content">
+              <i class="fa-solid fa-pen-to-square pen color1 box-info-icon"></i>
+              <h2 class="heading">UI Design</h2>
+              <p class="para">Lorem ipsum dolor sit<br> amet, consectetur<br> adipisicing elit.</p>
+              <p class="color1 know-more">KNOW MORE <i class="fa-solid fa-arrow-right color1"></i>
+              </p>
+            </div>
+          </div>
+          <div class="box-info box-info2">
+            <div class="box-info-content">
+              <i class=" fa-solid fa-clipboard-list box-info-icon icon2"></i>
+              <h2 class="heading">Product Design</h2>
+              <p class="para">Lorem ipsum dolor sit<br> amet, consectetur<br> adipisicing elit.</p>
+              <p class="colorWhite know-more">KNOW MORE <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+          </div>
+          <div class="box-info box-info3">
+            <div class="box-info-content">
+              <i class="fa-solid fa-ruler-combined color1 box-info-icon"></i>
+              <h2 class="heading">Branding</h2>
+              <p class="para">Lorem ipsum dolor sit<br> amet, consectetur<br> adipisicing elit.</p>
+              <p class="color1 know-more">KNOW MORE <i class="fa-solid fa-arrow-right color1"></i></p>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="person-info2">
+          <div class="person-info-experience">
+            <p class="color1 twelve">12</p>
+            <p class="person-info2-text">Years Experience</p>
+          </div>
+          <div class="exeprience">
+            <div>
+              <div class="experience-box experience-box1">
+                <p class="color1 sametext">60+</p>
+                <p class="samepara">Client</p>
+              </div>
+              <div class="experience-box experience-box2">
+                <p class="color1 sametext">122+</p>
+                <p class="samepara">Completed Projects</p>
+              </div>
+            </div>
+            <div>
+              <div class="experience-box experience-box3">
+                <p class="color1 sametext">08</p>
+                <p class="samepara">Years Experience</p>
+              </div>
+              <div class="experience-box experience-box4">
+                <p class="color1 sametext">10</p>
+                <p class="samepara">Achievments</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
   </div>
 </body>
