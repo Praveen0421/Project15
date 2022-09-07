@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -168,7 +170,7 @@ nav {
 .box-info {
   position: relative;
   top: 120px;
-  background-color: #222222;
+  background-color: #1e1e1e;
   height: 400px;
   width: 380px;
   margin: 0px 15px;
@@ -232,7 +234,7 @@ nav {
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: #222222;
+  background-color: #1e1e1e;
   width: 380px;
   height: 150px;
 }
@@ -254,6 +256,211 @@ nav {
   position: relative;
   left: 20px;
 }
+
+/* project section */
+
+.project {
+  position: relative;
+  top: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.project-heading {
+  font-size: 34px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+
+  color: #fff;
+}
+.project-text {
+  position: relative;
+  top: 16px;
+  color: #fff;
+}
+.project-btn {
+  color: #fff;
+  font-size: 18px;
+  background-color: #ff3343;
+  padding: 15px 40px;
+  border: none;
+}
+.project-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 60px;
+  width: 100%;
+}
+.project-section1 {
+  display: flex;
+}
+.web-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1e1e;
+  height: 480px;
+  width: 560px;
+}
+.web-img-box1 {
+  position: relative;
+  right: 22px;
+}
+.web-img-box2 {
+  position: relative;
+  left: 22px;
+}
+.web-img-box3 {
+  position: relative;
+  right: 22px;
+}
+.web-img-box4 {
+  position: relative;
+  left: 22px;
+}
+.art-img {
+  height: 280px;
+}
+.burger-img {
+  height: 280px;
+}
+.home-img {
+  width: 500px;
+  height: 278px;
+}
+.music-img {
+  height: 280px;
+}
+.web-name {
+  position: relative;
+  margin-top: 20px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+.web-link p {
+  position: relative;
+  margin: 15px 0px;
+}
+a {
+  text-decoration: none;
+  color: #ff3343;
+  font-size: 20px;
+  font-weight: 700;
+}
+.web-name-left,
+.link-left {
+  position: relative;
+  right: 20px;
+}
+
+.web-name-right,
+.link-right {
+  position: relative;
+  left: 22px;
+}
+.project-section2 {
+  position: relative;
+  margin-top: 20px;
+}
+
+/* contact-section */
+
+.contact-section {
+  position: relative;
+  top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1250px;
+  height: 370px;
+  background-color: #1e1e1e;
+}
+.contact-heading {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+.contact-text {
+  position: relative;
+  top: 20px;
+  font-size: 17px;
+  font-weight: 300;
+  color: #fff;
+}
+.contact-texts {
+  position: relative;
+  right: 40px;
+  bottom: 20px;
+}
+.contact-btn {
+  position: relative;
+  right: 50px;
+  color: #fff;
+  font-size: 18px;
+  background-color: #ff3343;
+  padding: 15px 40px;
+  border: none;
+}
+/* bottom navbar */
+.bottom-navbar {
+  position: relative;
+  top: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom-navbar ul {
+  display: flex;
+}
+.bottom-navbar ul li {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  list-style: none;
+  margin: 0px 20px;
+}
+
+/* footer */
+
+footer {
+  position: relative;
+  top: 360px;
+  height: 50px;
+  background-color: #1e1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0px;
+}
+.logo2 {
+  position: absolute;
+  left: 210px;
+  height: 38px;
+}
+footer ul {
+  display: flex;
+}
+footer ul li {
+  margin: 0px 20px;
+  color: #fff;
+  list-style-type: none;
+  font-size: 28px;
+}
+
+/* deminsion 1280 */
 
 @media screen and (max-width: 1280px) {
   .nav-items {
@@ -288,10 +495,6 @@ nav {
     padding: 18px 38px;
     font-size: 16px;
     font-weight: 600;
-  }
-
-  body {
-    background: rgb(178, 59, 59);
   }
 
   .person-info {
@@ -378,6 +581,7 @@ nav {
 }
 
 /* deminsion 1024 */
+
 @media screen and (max-width: 1024px) {
   .nav-items {
     display: none;
@@ -422,10 +626,6 @@ nav {
     font-weight: 600;
   }
 
-  body {
-    background: rgb(59, 178, 126);
-  }
-
   .person-info {
     height: 830px;
     top: -170px;
@@ -434,7 +634,7 @@ nav {
 
   .person-info1 {
     position: relative;
-    width: 980px;
+    width: 950px;
     top: -20px;
     left: 40px;
   }
@@ -471,7 +671,7 @@ nav {
 
   .person-info2 {
     position: relative;
-    width: 980px;
+    width: 950px;
     top: 240px;
     left: 40px;
   }
@@ -510,7 +710,143 @@ nav {
     width: 280px;
     height: 100px;
   }
+
+  /*  */
+
+  .project {
+    position: relative;
+    top: -60px;
+  }
+
+  .project-heading {
+    font-size: 34px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+
+    color: #fff;
+  }
+  .project-text {
+  }
+  .project-texts {
+    position: relative;
+    left: -70px;
+  }
+  .project-btn {
+    position: relative;
+    right: -75px;
+    font-size: 18px;
+  }
+  .project-section {
+    top: 60px;
+    width: 100%;
+  }
+  .project-section1 {
+    display: flex;
+  }
+  .web-img-box {
+    height: 420px;
+    width: 480px;
+  }
+  .web-img-box1,
+  .web-img-box3 {
+    position: relative;
+    right: 5px;
+  }
+  .web-img-box2,
+  .web-img-box4 {
+    position: relative;
+    left: 5px;
+  }
+  .art-img {
+    height: 250px;
+  }
+  .burger-img {
+    height: 250px;
+  }
+  .home-img {
+    width: 440px;
+    height: 245px;
+  }
+  .music-img {
+    height: 250px;
+  }
+  .web-name {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  .web-link p {
+    position: relative;
+    bottom: 10px;
+    margin: 12px 0px;
+  }
+  a {
+    font-size: 18px;
+  }
+  .web-name-left,
+  .link-left,
+  .web-name-right,
+  .link-right {
+    position: relative;
+    left: 10px;
+  }
+
+  .project-section2 {
+    position: relative;
+    margin-top: 10px;
+  }
+
+  /* contact-section */
+
+  .contact-section {
+    position: relative;
+    top: 100px;
+    width: 95vw;
+  }
+  .contact-heading {
+    font-size: 40px;
+  }
+  .contact-text {
+    position: relative;
+    top: 20px;
+    font-size: 17px;
+  }
+  .contact-texts {
+    position: relative;
+    right: 10px;
+    bottom: 20px;
+  }
+  .contact-btn {
+    position: relative;
+    right: 50px;
+    font-size: 18px;
+    padding: 15px 40px;
+  }
+  /* bottom navbar */
+  .bottom-navbar {
+    position: relative;
+    top: 140px;
+  }
+
+  /* footer */
+
+  footer {
+    top: 170px;
+    height: 40px;
+  }
+  .logo2 {
+    position: absolute;
+    left: 180px;
+    height: 35px;
+  }
+  footer ul {
+    display: flex;
+  }
+  footer ul li {
+    font-size: 25px;
+  }
 }
+
+/* deminsion 768px */
 
 @media screen and (max-width: 768px) {
   .logo-box {
@@ -568,7 +904,7 @@ nav {
   }
 
   body {
-    background: rgb(0, 0, 0);
+    background-color: #111;
   }
 
   .person-info {
@@ -656,11 +992,143 @@ nav {
     width: 200px;
     height: 100px;
   }
+
+  /*  */
+
+  .project {
+    position: relative;
+    top: 240px;
+  }
+
+  .project-heading {
+    font-size: 28px;
+  }
+  .project-text {
+    position: relative;
+  }
+  .project-texts {
+    position: relative;
+    left: -10px;
+  }
+  .project-btn {
+    position: relative;
+    right: -10px;
+    font-size: 16px;
+  }
+  .project-section {
+    top: 60px;
+    width: 100%;
+  }
+  .project-section1 {
+    display: flex;
+  }
+  .web-img-box {
+    height: 320px;
+    width: 350px;
+  }
+  .web-img-box1,
+  .web-img-box3 {
+    position: relative;
+    right: 5px;
+  }
+  .web-img-box2,
+  .web-img-box4 {
+    position: relative;
+    left: 5px;
+  }
+  .art-img {
+    height: 180px;
+  }
+  .burger-img {
+    height: 180px;
+  }
+  .home-img {
+    width: 315px;
+    height: 180px;
+  }
+  .music-img {
+    height: 180px;
+  }
+  .web-name {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  .web-link p {
+    position: relative;
+    bottom: 10px;
+    margin: 12px 0px;
+  }
+  a {
+    font-size: 18px;
+  }
+  .web-name-left,
+  .link-left,
+  .web-name-right,
+  .link-right {
+    position: relative;
+    left: 10px;
+  }
+
+  .project-section2 {
+    position: relative;
+    margin-top: 10px;
+  }
+
+  /* contact-section */
+
+  .contact-section {
+    position: relative;
+    top: 100px;
+    height: 300px;
+  }
+  .contact-heading {
+    font-size: 35px;
+  }
+  .contact-text {
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+  }
+  .contact-texts {
+    position: relative;
+    right: -20px;
+    bottom: 20px;
+  }
+  .contact-btn {
+    position: relative;
+    bottom: 25px;
+    right: 50px;
+    font-size: 16px;
+    padding: 15px 40px;
+  }
+  /* bottom navbar */
+  .bottom-navbar {
+    position: relative;
+    top: 380px;
+  }
+
+  /* footer */
+
+  footer {
+    top: 400px;
+    height: 30px;
+  }
+  .logo2 {
+    position: absolute;
+    left: 120px;
+    height: 32px;
+  }
+
+  footer ul li {
+    font-size: 20px;
+  }
 }
+
+/*  deminsion 540px */
 
 @media screen and (max-width: 540px) {
   body {
-    background: rgb(0, 0, 0);
+    background-color: #111;
   }
 
   .person-info {
@@ -720,7 +1188,8 @@ nav {
   .exeprience {
     position: relative;
     top: 100px;
-    width: 590px;
+    left: -75px;
+    width: 390px;
   }
 
   .twelve {
@@ -752,8 +1221,142 @@ nav {
     width: 200px;
     height: 100px;
   }
+  /*  */
+
+  .project {
+    position: relative;
+    top: 240px;
+  }
+  .project-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-heading {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .project-texts {
+    position: relative;
+    left: 0px;
+  }
+  .project-btn {
+    position: relative;
+    top: 40px;
+    right: 0px;
+  }
+  .project-section {
+    top: 60px;
+  }
+  .project-section1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .web-img-box {
+    height: 320px;
+    width: 350px;
+  }
+  .web-img-box1,
+  .web-img-box3 {
+    position: relative;
+    right: 0px;
+  }
+  .web-img-box2,
+  .web-img-box4 {
+    position: relative;
+    left: 0px;
+  }
+  .art-img {
+    height: 180px;
+  }
+  .burger-img {
+    height: 180px;
+  }
+  .home-img {
+    width: 315px;
+    height: 180px;
+  }
+  .music-img {
+    height: 180px;
+  }
+  .web-name {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .web-link p {
+    position: relative;
+    bottom: 10px;
+    margin: 12px 0px;
+  }
+  a {
+    font-size: 16px;
+  }
+  .web-name-left,
+  .link-left,
+  .web-name-right,
+  .link-right {
+    position: relative;
+    left: 0px;
+  }
+
+  .project-section2 {
+    position: relative;
+    margin-top: 10px;
+  }
+
+  /* contact-section */
+
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    height: 300px;
+  }
+  .contact-heading {
+    text-align: center;
+    font-size: 32px;
+  }
+  .contact-text {
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-size: 15px;
+  }
+  .contact-texts {
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+  }
+  .contact-btn {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+  }
+  /* bottom navbar */
+  .bottom-navbar {
+    position: relative;
+    top: 380px;
+  }
+
+  /* footer */
+
+  .logo2 {
+    position: absolute;
+    left: 50px;
+    height: 32px;
+  }
+
+  footer ul li {
+    position: relative;
+    left: 150px;
+  }
 }
 
+/*dimension 360px  */
 @media screen and (max-width: 360px) {
   .info-person-img {
     height: 350px;
@@ -846,5 +1449,132 @@ nav {
   .experience-box {
     width: 160px;
     height: 100px;
+  }
+  /*  */
+  .project {
+    position: relative;
+    top: 240px;
+  }
+  .project-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-heading {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .project-texts {
+    position: relative;
+    left: 0px;
+  }
+  .project-btn {
+    position: relative;
+    top: 40px;
+    right: 0px;
+  }
+  .project-section {
+    top: 60px;
+  }
+  .project-section1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .web-img-box {
+    height: 320px;
+    width: 350px;
+  }
+  .web-img-box1,
+  .web-img-box3 {
+    position: relative;
+    right: 0px;
+  }
+  .web-img-box2,
+  .web-img-box4 {
+    position: relative;
+    left: 0px;
+  }
+  .art-img {
+    height: 180px;
+  }
+  .burger-img {
+    height: 180px;
+  }
+  .home-img {
+    width: 315px;
+    height: 180px;
+  }
+  .music-img {
+    height: 180px;
+  }
+  .web-name {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .web-link p {
+    position: relative;
+    bottom: 10px;
+    margin: 12px 0px;
+  }
+  a {
+    font-size: 16px;
+  }
+  .web-name-left,
+  .link-left,
+  .web-name-right,
+  .link-right {
+    position: relative;
+    left: 0px;
+  }
+
+  .project-section2 {
+    position: relative;
+    margin-top: 10px;
+  }
+
+  /* contact-section */
+
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    height: 300px;
+  }
+  .contact-heading {
+    text-align: center;
+    font-size: 32px;
+  }
+  .contact-text {
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-size: 15px;
+  }
+  .contact-texts {
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+  }
+  .contact-btn {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+  }
+  /* bottom navbar */
+  .bottom-navbar {
+    position: relative;
+    top: 380px;
+  }
+  .bottom-navbar ul li {
+    font-size: 10px;
+  }
+  /* footer */
+  footer ul li {
+    position: relative;
+    left: 60px;
   }
 }
