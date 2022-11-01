@@ -44,8 +44,11 @@ nav {
   font-size: 13px;
   font-weight: 600;
   color: #fff;
+  transition: all 0.5s ease-in-out;
 }
-
+.items li:hover {
+  color: #ea3141;
+}
 .bar {
   display: none;
 }
@@ -101,9 +104,14 @@ nav {
   font-weight: 600;
   color: #fff;
   background-color: #ff3343;
-  border: none;
+  border: 1.5px solid #111;
+  transition: all 0.5s ease-in-out;
 }
-
+.btn:hover {
+  border: 1.5px solid #ff3343;
+  color: #ff3343;
+  background-color: #111;
+}
 /* Person information */
 
 .person-info {
@@ -291,7 +299,12 @@ nav {
   font-size: 18px;
   background-color: #ff3343;
   padding: 15px 40px;
-  border: none;
+  transition: all 0.5s ease-in-out;
+}
+.project-btn:hover {
+  border: 1.5px solid #ff3343;
+  color: #ff3343;
+  background-color: #111;
 }
 .project-section {
   position: relative;
@@ -312,6 +325,11 @@ nav {
   background-color: #1e1e1e;
   height: 480px;
   width: 560px;
+  transition: all 0.2s ease-in-out;
+}
+.web-img-box:hover {
+  height: 400px;
+  width: 500px;
 }
 .web-img-box1 {
   position: relative;
@@ -412,7 +430,12 @@ a {
   font-size: 18px;
   background-color: #ff3343;
   padding: 15px 40px;
-  border: none;
+  transition: all 0.5s ease-in-out;
+}
+.contact-btn:hover {
+  border: 1.5px solid #ff3343;
+  color: #ff3343;
+  background-color: #111;
 }
 /* bottom navbar */
 .bottom-navbar {
@@ -431,8 +454,13 @@ a {
   color: #fff;
   list-style: none;
   margin: 0px 20px;
+  transition: all 0.5s ease-in-out;
 }
 
+.bottom-navbar ul li:hover {
+  color: #ff3343;
+  cursor: pointer;
+}
 /* footer */
 
 footer {
@@ -458,6 +486,10 @@ footer ul li {
   color: #fff;
   list-style-type: none;
   font-size: 28px;
+}
+footer ul li:hover {
+  color: #ff3343;
+  cursor: pointer;
 }
 
 /* deminsion 1280 */
